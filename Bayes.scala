@@ -175,7 +175,7 @@ object classifier {
 object Bayes {
   def main(args :Array[String]): Unit ={
 
-    val file: String ="/home/bizzarec/Projects/DataScience/NaiveBayesianClassifier/iris.csv"
+    val file: String ="iris.csv"
     var dataSet = reader.csvParser(file)
     var noElems: Int = dataSet.length
     var splitRatio = 0.80
